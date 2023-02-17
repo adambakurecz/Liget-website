@@ -1,6 +1,7 @@
 body{
-  background-color: rgb(250, 254, 251);
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 header{
@@ -9,5 +10,36 @@ header{
   left: 0px;
   right: 0px;
   height: 50px;
-  background-color: rgb(199, 216, 239);
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.navbar-logo{
+  height: 40px;
+}
+
+.navbar-option{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 99px;
+  background-color: rgb(12, 157, 41);
+}
+
+main{
+  height: 1000px;
+}
+
+footer{
+  height: 100px;
+  background-color: #08a652;
 }
