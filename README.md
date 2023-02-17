@@ -1,3 +1,3 @@
 # Liget-website
 
-Design ötletelés 2022.02.17
+Liget boulder website project
