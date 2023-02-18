@@ -8,36 +8,40 @@ header{
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  background-color: lightpink;
-}
-
-nav{
-  flex: 1;
+  height: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
+  background-color: white;
+  /*background-color: #04AA6D;*/
+}
+
+nav{
+  display: flex;
+  justify-content:right;
+  align-items: center;
 }
 
 .navbar-logo{
   height: 40px;
+  padding: 10px;
 }
 
 .navbar-option{
-  color: white;
+  color: rgb(48, 141, 70);
   text-decoration: none;
-  background-color: red;
+  /*font-weight: bold;*/
+  padding: 10px;
 }
 
 main{
-  padding-top: 50px;
+  padding-top: 120px;
   height: 500px;
 }
 
 footer{
   height: 100px;
-  background-color: lightblue;
+  background-color: rgb(48, 141, 70);
 }

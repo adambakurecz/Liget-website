@@ -1,3 +1,6 @@
 fehér-ish: rgb(250, 254, 251)
 szürke-ish: rgb(84, 92, 89)
 kék-ish: rgb(199, 216, 239)
+
+W3 school green: rgb(4, 170, 109)
+geeksforgeeks green: rgb(48, 141, 70) -preference
