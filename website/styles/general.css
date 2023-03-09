@@ -3,14 +3,18 @@ body{
   margin: 0;
 }
 
+p{
+  margin: 0;
+}
+
 header{
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  height: 120px;
-  padding-left: 40px;
-  padding-right: 40px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,28 +24,57 @@ header{
 
 nav{
   display: flex;
-  justify-content:right;
+  justify-content: right;
   align-items: center;
 }
 
 .navbar-logo{
-  height: 40px;
-  padding: 10px;
+  height: 10vh;
+  /*padding: 10px;*/
 }
 
 .navbar-option{
   color: rgb(48, 141, 70);
+  font-size: 1.5rem;
   text-decoration: none;
   /*font-weight: bold;*/
-  padding: 10px;
+  padding: 1rem;
 }
 
 main{
-  padding-top: 120px;
-  height: 500px;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-pic{
+  width: 70vw;
+}
+
+.motto{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  width: 70vw;
+  text-align: center;
+}
+
+.introduction{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 70vw;
+  text-align: center;
 }
 
 footer{
-  height: 100px;
+  height: 25vh;
   background-color: rgb(48, 141, 70);
+  display: flex;
+  justify-content: space-around;
 }
+
+.social-media-icon{
+  height: 3rem;
+}
+
