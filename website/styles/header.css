@@ -1,0 +1,33 @@
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15vh;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /*background-color: #04AA6D;*/
+}
+
+nav{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbar-logo{
+  height: 5rem;
+  /*padding: 10px;*/
+}
+
+.navbar-option{
+  color: rgb(48, 141, 70);
+  font-size: 1.5rem;
+  text-decoration: none;
+  /*font-weight: bold;*/
+  padding: 1rem;
+}
