@@ -10,10 +10,21 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  /*background-color: #04AA6D;*/
+  transition: all 0.3s linear; /*option: ease*/
 }
 
-nav{
+.smaller-header{
+  height: 10vh;
+  background-color: rgb(48, 141, 70);
+}
+.smaller-header .navbar-option{
+  color: white;
+}
+.smaller-header .navbar-logo{
+  height: 3rem;
+}
+
+header nav{
   display: flex;
   justify-content: right;
   align-items: center;
@@ -21,7 +32,7 @@ nav{
 
 .navbar-logo{
   height: 5rem;
-  /*padding: 10px;*/
+  transition: all 0.3s linear; /*option: ease*/
 }
 
 .navbar-option{
