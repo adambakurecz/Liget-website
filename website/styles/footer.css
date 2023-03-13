@@ -1,11 +1,12 @@
 footer{
   color: white;
   height: 25vh;
-  background-color: rgb(48, 141, 70);
+  background-color: black;
   display: flex;
   justify-content: space-around;
 }
 
 .social-media-icon{
-  height: 3rem;
+  height: 5vh;
+  border-radius: 1.5vh;
 }

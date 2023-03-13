@@ -2,23 +2,42 @@
 
 <html>
   <head>
-    <title></title>
+    <title>Galéria</title>
+
     <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <script src="../logic/header.js"></script>
+    <!--<link rel="stylesheet" href="../styles/test_styles.css">-->
   </head>
   <body>
-    <header>
+    <header id="header">
+      <a href="index.html">
+        <img class="navbar-logo" src="../resources/bananas.svg">
+      </a>
       <nav>
-        <a href="index.html">
-          <img class="navbar-logo" src="../resources/Bananas.svg">
-        </a>
-        <a class="navbar-option" href="opening_hours.html">Nyitvatartás</a>
-        <a class="navbar-option" href="prices.html">Áraink</a>
-        <a class="navbar-option" href="classes.html">Órarend</a>
-        <a class="navbar-option" href="contact.html">Elérhetőségek</a>
-        <a class="navbar-option" href="gallery.html">Galéria</a>
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><a href="opening_hours.html">Nyitvatartás</a></li>
+        <li><a href="prices.html">Áraink</a></li>
+        <li><a href="classes.html">Edzések</a></li>
+        <li><a href="contact.html">Elérhetőség</a></li>
+        <li><a class="navbar-active" href="gallery.html">Galéria</a></li>
+        <li><a href="index.html"><img class="flag" src="../resources/english-flag.svg"></a></li>
       </nav>
     </header>
-    <main>Galéria</main>
-    <footer></footer>
+    <main>Órarend</main>
+    <footer>
+      <div class="social-media-icon-container">
+        <img class="social-media-icon" src="../resources/facebook-icon.svg">
+        <img class="social-media-icon" src="../resources/instagram-icon.svg">
+      </div>
+      <div class="quick-links">
+        adatkezelés
+      </div>
+      <div class="quick-contact">
+        veszprém
+      </div>
+    </footer>
   </body>
 </html>

@@ -7,6 +7,8 @@ main{
 
 .index-pic{
   width: 70vw;
+  max-height: 70vh;
+  object-fit: cover;
 }
 
 .motto{
