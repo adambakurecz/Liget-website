@@ -4,6 +4,7 @@ header{
   left: 0;
   right: 0;
   height: 15vh;
+  min-height: 6rem;
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
@@ -13,23 +14,7 @@ header{
   transition: all 0.5s ease; /*option: linear*/
 }
 
-.smaller-header{
-  height: 8vh;
-  background-color: #308d46;
-}
-.smaller-header nav li a{
-  color: white;
-}
-.smaller-header .navbar-logo{
-  height: 3rem;
-}
-.smaller-header .navbar-active{
-  background-color: white;
-  color: #308d46;
-  transition: all 0.5s ease;
-}
-
-header nav{
+nav{
   display: flex;
   justify-content: right;
   align-items: center;
@@ -44,9 +29,9 @@ nav li a{
   color: rgb(48, 141, 70);
   font-size: 1.5rem;
   text-decoration: none;
-  /*font-weight: bold;*/
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
+  transition: all 0.5s ease; /*option: linear*/
 }
 
 .navbar-active{
@@ -56,4 +41,43 @@ nav li a{
 
 .flag{
   height: 1rem;
+}
+
+.smaller-header{
+  height: 9vh;
+  min-height: 4rem;
+  background-color: #308d46;
+}
+.smaller-header nav li a{
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.smaller-header .navbar-logo{
+  height: 3rem;
+}
+.smaller-header .navbar-active{
+  background-color: white;
+  color: #308d46;
+}
+
+@media only screen and (max-width: 1200px){
+  nav li a{
+    font-size: 1rem;
+    transition: all 0.5s ease; /*option: linear*/
+  }
+  .navbar-logo{
+    height: 4rem;
+    transition: all 0.5s ease; /*option: linear*/
+  }
+}
+
+@media only screen and (max-width: 950px){
+  nav{
+    display: none;
+  }
+  .navbar-logo{
+    height: 3rem;
+    transition: all 0.5s ease; /*option: linear*/
+  }
 }
