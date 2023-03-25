@@ -11,26 +11,48 @@
     <link rel="stylesheet" href="../styles/index-main.css">
     <link rel="stylesheet" href="../styles/footer.css">
 
-    <script src="../logic/header.js"></script>
+    
     <!--<link rel="stylesheet" href="../styles/test_styles.css">-->
   </head>
   <body>
     <header id="header">
       <a href="index.html">
-        <img class="navbar-logo" src="../resources/bananas.svg">
+        <img class="navbar-logo" src="../resources/logo_liget_boulder_transparent_2.png">
       </a>
       <nav>
-        <li><a class="navbar-active" href="index.html">Kezdőlap</a></li>
-        <li><a href="opening_hours.html">Nyitvatartás</a></li>
-        <li><a href="prices.html">Áraink</a></li>
-        <li><a href="classes.html">Edzések</a></li>
-        <li><a href="contact.html">Elérhetőség</a></li>
-        <li><a href="gallery.html">Rólunk</a></li>
-        <li><a href="index.html"><img class="flag" src="../resources/english-flag.svg"></a></li>
+        <ul class="nav-links">
+          <li><a class="navbar-active" href="index.html">Kezdőlap</a></li>
+          <li><a href="opening_hours.html">Nyitvatartás</a></li>
+          <li><a href="prices.html">Áraink</a></li>
+          <li><a href="classes.html">Edzések</a></li>
+          <li><a href="contact.html">Elérhetőség</a></li>
+          <li><a href="gallery.html">Rólunk</a></li>
+          <li><a href="index.html"><img class="flag" src="../resources/english-flag.svg"></a></li>
+          <li>
+            <div class="hamburger-close">
+              <div class="cross-1"></div>
+              <div class="cross-2"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="hamburger-open">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
     </header>
+
     <main>
-      <img class="index-pic" src="../resources/index.webp">
+      <div class="darkened-pic">
+        <img class="index-pic" src="../resources/index-background.jpg">
+        <div class="darkening">
+          <p>
+            WELCOME TO LIGET BOULDER
+          </p>
+        </div>
+      </div>
+
       <p class="motto">
         Lorem ipsum
       </p>
@@ -45,6 +67,7 @@
         Vivamus commodo facilisis neque ac auctor.
       </p>
     </main>
+
     <footer>
       <div class="social-media-icon-container">
         <img class="social-media-icon" src="../resources/facebook-icon.svg">
@@ -57,5 +80,8 @@
         veszprém
       </div>
     </footer>
+
+    <script src="../logic/header.js"></script>
+
   </body>
 </html>

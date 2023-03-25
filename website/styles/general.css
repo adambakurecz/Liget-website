@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  overflow-x: hidden;
 }
 
