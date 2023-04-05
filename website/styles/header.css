@@ -1,16 +1,15 @@
 header{
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   height: 15vh;
-  min-height: 6rem;
+  min-height: 4rem;
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.5s ease; /*option: linear*/
+  transition: all 0.3s ease; /*option: linear*/
   z-index: 20;
 }
 
@@ -18,11 +17,12 @@ header{
   display: flex;
   justify-content: right;
   align-items: center;
+  gap: 1rem;
 }
 
 .navbar-logo{
   height: 5rem;
-  transition: all 0.5s ease; /*option: linear*/
+  transition: all 0.3s ease; /*option: linear*/
 }
 
 .nav-links li a{
@@ -31,12 +31,17 @@ header{
   text-decoration: none;
   padding: 1rem;
   border-radius: 5rem;
-  transition: all 0.5s ease; /*option: linear*/
+  transition: all 0.3s ease; /*option: linear*/
 }
 
-.nav-links .navbar-active{
+.hover{
+  color: black!important;
   background-color: white;
-  color: black;
+}
+
+.nav-active{
+  color: black!important;
+  background-color: white;
 }
 
 .flag{
@@ -53,7 +58,7 @@ header{
   height: 3px;
   background-color: white;
   margin: 5px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .hamburger-close{
@@ -66,7 +71,7 @@ header{
   height: 3px;
   background-color: white;
   margin: 13px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .cross-1{
   transform: rotate(-45deg) translate(-5px, 6px);
@@ -75,13 +80,11 @@ header{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media only screen and (min-width: 951px){
-  
+@media only screen and (min-width: 1051px){
   .smaller-header .nav-links li a{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  
 }
 
 .smaller-header .navbar-logo{
@@ -89,38 +92,34 @@ header{
 }
 
 .smaller-header{
-    height: 9vh;
-    min-height: 4rem;
-    background-color: black;
-  }
+  height: 9vh;
+  background: black;
+}
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1300px){
   .nav-links li a{
     font-size: 1rem;
-    transition: all 0.5s ease; /*option: linear*/
   }
   .navbar-logo{
     height: 4rem;
-    transition: all 0.5s ease; /*option: linear*/
   }
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 1050px){
   .nav-links{
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 100vw;
-    height: 100vh;
-    width: 60vw;
-    min-width: 20rem;
-    padding-top: 10rem;
+    height: 100%;
+    width: clamp(50vw, 20rem, 100vw);
+    padding-top: 5rem;
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(103, 153, 204);
-    transition: all 0.5s ease;
+    background-color: rgb(103, 153, 204);
+    transition: all 0.3s ease;
   }
   .nav-links.active {
     transform: translateX(-100%);
@@ -128,16 +127,20 @@ header{
   .nav-links li a{
     font-size: 1.5rem;
   }
-  .nav-links .navbar-active{
+  .hover{
+    color: rgb(103, 153, 204)!important;
     background-color: white;
-    color: #6799cc;
+  }
+  
+  .nav-active{
+    color: rgb(103, 153, 204)!important;
+    background-color: white;
   }
   .flag{
     height: 1.5rem;
   }
   .navbar-logo{
     height: 3rem;
-    transition: all 0.5s ease; /*option: linear*/
   }
  
   .hamburger-open{
