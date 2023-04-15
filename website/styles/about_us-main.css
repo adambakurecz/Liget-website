@@ -1,0 +1,21 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 10rem 1rem 1rem 2rem;
+}
+
+.p1{
+  color: white;
+  font-size: clamp(0.8rem, 3vw, 1.5rem);
+  line-height: 1.5;
+}
+
+.p2{
+  color: rgb(103, 153, 204);
+  font-size: 2rem;
+  font-weight: bold;
+}
