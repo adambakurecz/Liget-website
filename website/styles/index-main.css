@@ -6,7 +6,8 @@ main{
   position: relative;
   padding-bottom: 3rem;
   z-index: 1;
-  background-color: rgb(16, 16, 16);
+  /*background-color: rgb(16, 16, 16);*/
+  background-color: rgb(50, 50, 50);
 }
 
 .darkened-pic{
@@ -25,8 +26,8 @@ main{
   top: 0;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(16, 16, 16, 0.3), rgba(16, 16, 16, 1));/**/
-  /*background-color: rgba(0, 0, 0, 0.6);*/
+  background: linear-gradient(to bottom, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 1));/**/
+  /*background: linear-gradient(to bottom, rgba(16, 16, 16, 0.3), rgba(16, 16, 16, 1));*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +48,7 @@ main{
   background-clip: text;
   text-decoration: none;
   font-size: min(2rem, 6vw);
+  font-weight: bold;
   padding: 1rem;
   border-radius: 3rem;
   border: 2px solid transparent;

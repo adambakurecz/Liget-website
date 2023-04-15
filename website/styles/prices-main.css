@@ -1,0 +1,66 @@
+main{
+  min-height: 100vh;
+  height: fit-content;
+  background-image: url(../resources/Boulder-37-dark.jpg);
+  background-size: cover;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-container {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-weight: bold;
+  margin-top: 20vh;
+}
+.table-container p{
+  text-align: center;
+  padding: 1rem;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-table th, .price-table td:not(:first-child){
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.price-table td:first-child{
+  padding: 1rem 2rem;
+}
+
+tr:nth-child(even){
+  background-color: rgb(50, 50, 50);
+}
+tr:nth-child(odd){
+  background-color: rgb(134, 170, 207);
+}
+thead tr{
+  background-color: rgb(50, 50, 50)!important;
+}
+
+@media only screen and (max-width: 950px){
+  main{
+    font-size: 0.6rem;
+  }
+
+  .price-table thead tr th {
+    padding: 1rem!important;
+  }
+  .price-table tbody tr td {
+    padding: 1rem!important;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  main{
+    background-image: none;
+    background-color: rgb(50, 50, 50);
+  }
+}

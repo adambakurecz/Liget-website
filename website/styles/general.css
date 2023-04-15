@@ -11,7 +11,7 @@ body{
 }
 
 main{
-  min-height: calc(100vh - 291px);
-  background-color: rgb(16, 16, 16);
+  min-height: calc(100vh - 292px);
+  background-color: rgb(50, 50, 50);
 }
 

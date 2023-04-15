@@ -73,7 +73,6 @@ footer{
   width: 96vw;
   padding: 1rem 0;
   border-top: 1px solid rgba(255, 255, 255, 1);
-  /*border-top: 1px solid linear-gradient(to right, black 0%, white 20%, white 80%, black 100%);*/
 }
 .legal p{
   color: white;
