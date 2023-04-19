@@ -1,5 +1,6 @@
 //Smaller header
 window.onscroll = function() {
+  const pageDown = document.querySelector(".btn-down");
   const header = document.querySelector("header");
   if (window.pageYOffset > 0) {
     header.classList.add("smaller-header");

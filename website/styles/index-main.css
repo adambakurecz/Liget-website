@@ -51,12 +51,33 @@ main{
   font-weight: bold;
   padding: 1rem;
   border-radius: 3rem;
+  cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.3s;
 }
-.darkening a:hover{
+@media(pointer: fine){
+  .darkening a:hover{
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(204, 50, 50, 0.7);
+  }
+}
+
+
+.btn-down{
+  position: absolute;
+  bottom: 5vh;
+  left: 50vw;
+  z-index: 9;
+  transform: translate(-50%, 0);
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.disappear{
+  opacity: 0;
+}
+.arrow-down{
+  width: 2rem;
 }
 
 .introduction{
@@ -117,6 +138,7 @@ main{
   text-align: justify;
 }
 .text-container a{
+  display: none;/*TODO*/
   text-decoration: none;
   color: white;
   font-size: 1.5rem;

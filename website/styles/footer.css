@@ -51,10 +51,14 @@ footer{
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
+
 }
-.quick-contact a:hover{
-  color: rgb(103, 153, 204);
+@media(pointer: fine){
+  .quick-contact a:hover{
+    color: rgb(103, 153, 204);
+  }
 }
+
 
 .footer-logo{
   height: 5rem;

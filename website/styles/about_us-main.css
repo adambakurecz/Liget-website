@@ -1,11 +1,18 @@
 main{
   display: flex;
-  flex-direction: column;
   align-content: center;
   justify-content: center;
-  text-align: center;
   gap: 1rem;
-  padding: 10rem 1rem 1rem 2rem;
+  padding: 10rem 1rem 2rem 1rem;
+}
+main img{
+  height: 50vh;
+}
+
+main div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .p1{
@@ -18,4 +25,28 @@ main{
   color: rgb(103, 153, 204);
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1600px){
+  main img{
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px){
+  main{
+    flex-direction: column;
+    padding: 8rem 0rem 2rem 0rem;
+  }
+  main img{
+    order: 1;
+    width: 100vw;
+    height: fit-content;
+    display: inline-block;
+  }
+  main div{
+    order: 2;
+  }
+  main div p{
+    padding: 0 1rem 0 1rem;
+  }
 }
