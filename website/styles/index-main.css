@@ -54,6 +54,7 @@ main{
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.3s;
+  user-select: none;
 }
 @media(pointer: fine){
   .darkening a:hover{
