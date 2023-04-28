@@ -49,6 +49,7 @@ pageDown.addEventListener('click', ()=>{
 //"Hamarosan megnyitunk" button
 const indexButton = document.querySelector(".index-button");
 const article = document.querySelector(".article-container");
+const header = document.querySelector("header");
 indexButton.addEventListener('click', ()=>{
-  window.scrollTo(0, article.offsetTop);
+  window.scrollTo(0, article.offsetTop - header.offsetHeight);
 });

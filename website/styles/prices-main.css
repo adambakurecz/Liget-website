@@ -39,7 +39,7 @@ tr:nth-child(even){
   background-color: rgb(50, 50, 50);
 }
 tr:nth-child(odd){
-  background-color: rgb(134, 170, 207);
+  background-color: rgb(101, 130, 160);
 }
 thead tr{
   background-color: rgb(50, 50, 50)!important;
