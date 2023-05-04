@@ -139,13 +139,20 @@ main{
   text-align: justify;
 }
 .text-container a{
-  display: none;/*TODO*/
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
   width: fit-content;
   padding: 0.5rem;
   background-color: rgb(204, 50, 50);
+  transition: all 0.3s;
+  user-select: none;
+}
+@media(pointer: fine){
+  .text-container a:hover{
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(204, 50, 50, 0.7);
+  }
 }
 
 @media only screen and (max-width: 950px){
