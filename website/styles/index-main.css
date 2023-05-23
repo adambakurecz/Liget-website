@@ -115,6 +115,7 @@ main{
 .article-container img{
   width: 30rem;
   max-width: 100vw;
+  object-fit: cover;
   position: relative;
 }
 
