@@ -9,6 +9,7 @@ main{
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+  max-width: 50rem;
 }
 
 .contact{
@@ -64,6 +65,12 @@ main{
 
 .media-icon{
   height: max(4rem, 4vw);
+}
+
+.parking{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .parking p{
