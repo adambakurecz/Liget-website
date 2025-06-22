@@ -1,85 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EMWE3KH25"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-6EMWE3KH25"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-      gtag('config', 'G-6EMWE3KH25');
-    </script>
+            gtag("config", "G-6EMWE3KH25");
+        </script>
 
-    <meta charset="UTF-8"/>
+        <meta charset="UTF-8" />
 
-    <link rel="icon" type="image/png" href="../../resources/logo_liget_boulder_transparent_2.png" media="(prefers-color-scheme: dark)"/>
-    <link rel="icon" type="image/png" href="../../resources/logo_liget_boulder_transparent_1.png" media="(prefers-color-scheme: light)"/>
-    <title>Liget Boulder</title>
+        <link
+            rel="icon"
+            type="image/png"
+            href="../../resources/logo_liget_boulder_transparent_2.png"
+            media="(prefers-color-scheme: dark)"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="../../resources/logo_liget_boulder_transparent_1.png"
+            media="(prefers-color-scheme: light)"
+        />
+        <title>Liget Boulder</title>
 
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1">
+        <meta
+            name="viewport"
+            content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1"
+        />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
 
+        <link rel="stylesheet" href="../../styles/general.css" />
+        <link rel="stylesheet" href="../../styles/header.css" />
+        <link rel="stylesheet" href="../../styles/classes-main.css" />
+        <link rel="stylesheet" href="../../styles/footer.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index-en.html">
+                <img
+                    class="navbar-logo"
+                    src="../../resources/logo_liget_boulder_transparent_2.png"
+                />
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index-en.html">Home</a></li>
+                    <li><a href="opening_hours-en.html">Opening hours</a></li>
+                    <li><a href="prices-en.html">Prices</a></li>
+                    <li>
+                        <a class="navbar-active" href="classes-en.html"
+                            >Classes</a
+                        >
+                    </li>
+                    <li><a href="contact-en.html">Contact</a></li>
+                    <li><a href="about_us-en.html">About us</a></li>
+                    <li>
+                        <a href="../html-hun/classes-hun.html"
+                            ><img
+                                class="flag"
+                                src="../../resources/hungarian-flag.svg"
+                        /></a>
+                    </li>
+                    <li>
+                        <div class="hamburger-close">
+                            <div class="cross-1"></div>
+                            <div class="cross-2"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="hamburger-open">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
 
-    <link rel="stylesheet" href="../../styles/general.css">
-    <link rel="stylesheet" href="../../styles/header.css">
-    <link rel="stylesheet" href="../../styles/classes-main.css">
-    <link rel="stylesheet" href="../../styles/footer.css">
-  </head>
-  <body>
-    <header>
-      <a href="index-en.html">
-        <img class="navbar-logo" src="../../resources/logo_liget_boulder_transparent_2.png">
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index-en.html">Home</a></li>
-          <li><a href="opening_hours-en.html">Opening hours</a></li>
-          <li><a href="prices-en.html">Prices</a></li>
-          <li><a class="navbar-active" href="classes-en.html">Classes</a></li>
-          <li><a href="contact-en.html">Contact</a></li>
-          <li><a href="about_us-en.html">About us</a></li>
-          <li><a href="../html-hun/classes-hun.html"><img class="flag" src="../../resources/hungarian-flag.svg"></a></li>
-          <li>
-            <div class="hamburger-close">
-              <div class="cross-1"></div>
-              <div class="cross-2"></div>
+        <main>
+            <img
+                class="classes-img"
+                src="../../resources/classes_2025-1.png"
+                alt=""
+            /><!--TODO: Translate-->
+            <div class="booking-container">
+                <p>SIGN UP:</p>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1TgAIUYyklziDvhTtZsIk6uqAhrZ1P8zkzmOBR_08WPg/edit#gid=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Makik<!--TODO: Translate-->
+                </a>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1fFOkl1fnRcSpTi2766qG0QCCW0o_pgfdP--jJK2vGuM/edit#gid=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Gibbonok<!--TODO: Translate-->
+                </a>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1NtI5ZaKRvdIOvfX7IGqEYZgdqbwsRnrFzU7OMTB85jc/edit#gid=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Lajhárok<!--TODO: Translate-->
+                </a>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1gwg1LHyOVq_xMS8cmcPJwdgxUuaGS6fz5E9YqWrerxc/edit?fbclid=IwAR00LoEcrOT3XBOdk4XFjJFMFS_EffOtXlpD-wceBitcUQyM44wtom8EKME#gid=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Gorillák<!--TODO: Translate-->
+                </a>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1Ow2DHwxaAHPDEXcwTisrCkSpR2esRjC1j98JmjW0JJY/edit?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Morning Trainings
+                </a>
             </div>
-          </li>
-        </ul>
-        <div class="hamburger-open">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <img class="classes-img" src="../../resources/classes_2024-6.png" alt=""><!--TODO: Translate-->
-      <div class="booking-container">
-        <p>SIGN UP:</p>
-        <a href="https://docs.google.com/spreadsheets/d/1TgAIUYyklziDvhTtZsIk6uqAhrZ1P8zkzmOBR_08WPg/edit#gid=0" target="_blank" rel="noopener noreferrer">
-          Makik<!--TODO: Translate-->
-        </a>
-        <a href="https://docs.google.com/spreadsheets/d/1fFOkl1fnRcSpTi2766qG0QCCW0o_pgfdP--jJK2vGuM/edit#gid=0" target="_blank" rel="noopener noreferrer">
-          Gibbonok<!--TODO: Translate-->
-        </a>
-        <a href="https://docs.google.com/spreadsheets/d/1NtI5ZaKRvdIOvfX7IGqEYZgdqbwsRnrFzU7OMTB85jc/edit#gid=0" target="_blank" rel="noopener noreferrer">
-          Lajhárok<!--TODO: Translate-->
-        </a>
-        <a href="https://docs.google.com/spreadsheets/d/1gwg1LHyOVq_xMS8cmcPJwdgxUuaGS6fz5E9YqWrerxc/edit?fbclid=IwAR00LoEcrOT3XBOdk4XFjJFMFS_EffOtXlpD-wceBitcUQyM44wtom8EKME#gid=0" target="_blank" rel="noopener noreferrer">
-          Gorillák<!--TODO: Translate-->
-        </a>
-        <a href="https://docs.google.com/spreadsheets/d/1Ow2DHwxaAHPDEXcwTisrCkSpR2esRjC1j98JmjW0JJY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          Morning Trainings
-        </a>
-      </div>
-      <!--
+            <!--
       <div class="additional-info-container">
         <p>
           The price of training is 1000 HUF/hour/person in addition to the climbing pass.
@@ -87,55 +144,93 @@
         </p>
       </div>
       -->
-      <div class="trainers-container">
-        <p1>Trainers & contact:</p1>
-        <p>Imrei Kata: +36 30 445 5477</p>
-        <p>Herczeg Balázs: +36 30 530 1127</p>
-        <p>Strommer László: +36 70 324 5421</p>
-        <p>Strommer Soma: +36 70 324 2926</p>
-        <p>Imre Léna: imreleena@gmail.com</p>
-      </div>
-    </main>
+            <div class="trainers-container">
+                <p1>Trainers & contact:</p1>
+                <p>Imrei Kata: +36 30 445 5477</p>
+                <p>Herczeg Balázs: +36 30 530 1127</p>
+                <p>Strommer László: +36 70 324 5421</p>
+                <p>Strommer Soma: +36 70 324 2926</p>
+                <p>Imre Léna: imreleena@gmail.com</p>
+            </div>
+        </main>
 
-    <footer>
-      <div class="main">
-        <div class="about-us">
-          <img class="footer-logo" src="../../resources/logo_liget_boulder_transparent_2.png">
-          <p>Climbings new home in Veszprém.</p>
-        </div>
-        <div class="social-media">
-          <p>Follow us!</p>
-          <div>
-            <a href="https://www.facebook.com/ligetboulder.hu" target="_blank" rel="noopener noreferrer">
-              <img class="social-media-icon" src="../../resources/facebook-icon.svg">
-            </a>
-            <a href="https://www.instagram.com/liget_boulder" target="_blank" rel="noopener noreferrer">
-              <img class="social-media-icon" src="../../resources/instagram-icon.svg">
-            </a>
-          </div>
-        </div>
-        <div class="quick-contact">
-          <a href="https://goo.gl/maps/f3dr4rQ5nYKLc8Db6" target="_blank" rel="noopener noreferrer">
-            <img class="contact-icon" src="../../resources/map-icon.svg">
-            <p>8200 Veszprém, Hóvirág street 1.</p>
-          </a>
-          <a href="tel:+36705294060" rel="noopener noreferrer">
-            <img class="contact-icon" src="../../resources/phone-icon.svg">
-            <p>+36 70 529 4060</p>
-          </a>
-          <a href="mailto:ligetboulder@gmail.com" target="_blank" rel="noopener noreferrer">
-            <img class="contact-icon" src="../../resources/mail-icon.svg">
-            <p>ligetboulder@gmail.com</p>
-          </a>
-        </div>
-      </div>
-      <div class="legal">
-        <p>© Liget Boulder 2023. All rights reserved.</p>
-        <a href="../../resources/privacy-policy-en.pdf" target="_blank" rel="noopener noreferrer">Privacy policy</a>
-      </div>
-    </footer>
+        <footer>
+            <div class="main">
+                <div class="about-us">
+                    <img
+                        class="footer-logo"
+                        src="../../resources/logo_liget_boulder_transparent_2.png"
+                    />
+                    <p>Climbings new home in Veszprém.</p>
+                </div>
+                <div class="social-media">
+                    <p>Follow us!</p>
+                    <div>
+                        <a
+                            href="https://www.facebook.com/ligetboulder.hu"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                class="social-media-icon"
+                                src="../../resources/facebook-icon.svg"
+                            />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/liget_boulder"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                class="social-media-icon"
+                                src="../../resources/instagram-icon.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="quick-contact">
+                    <a
+                        href="https://goo.gl/maps/f3dr4rQ5nYKLc8Db6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            class="contact-icon"
+                            src="../../resources/map-icon.svg"
+                        />
+                        <p>8200 Veszprém, Hóvirág street 1.</p>
+                    </a>
+                    <a href="tel:+36705294060" rel="noopener noreferrer">
+                        <img
+                            class="contact-icon"
+                            src="../../resources/phone-icon.svg"
+                        />
+                        <p>+36 70 529 4060</p>
+                    </a>
+                    <a
+                        href="mailto:ligetboulder@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            class="contact-icon"
+                            src="../../resources/mail-icon.svg"
+                        />
+                        <p>ligetboulder@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+            <div class="legal">
+                <p>© Liget Boulder 2023. All rights reserved.</p>
+                <a
+                    href="../../resources/privacy-policy-en.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Privacy policy</a
+                >
+            </div>
+        </footer>
 
-    <script src="../../logic/header.js"></script>
-
-  </body>
+        <script src="../../logic/header.js"></script>
+    </body>
 </html>
